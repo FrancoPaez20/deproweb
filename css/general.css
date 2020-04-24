@@ -1,0 +1,79 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap&subset=latin-ext');
+:root{
+
+	/*Textos*/
+/*	--especial:12px;
+	--lectura:16px;
+	--lecturaDos:18px;
+	--subtitulos:24px;
+	--titulos:32px;
+	--titulosDos:48px;
+	--especialDos:100px;*/
+	--parrafo: 16px;
+	--subtitulos: 32px;
+	--titulos: 64px;
+
+	/*Colores*/
+	--colorUno:#181818;
+	--colorDos:#212121;
+	--colorTres:#282828;
+	--colorCuatro:#909090;
+	--colorCinco:#aaaaaa;
+	--blanco:#fff;
+	--negro:#000;
+	
+	/*Botones*/
+	--borderRadius: 5px;
+	--borderRadius2: 15px;
+
+	/*Transiciones*/
+	--transicionCorta:.3s;
+	--transicionLarga:.5s;
+}
+
+*{
+
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+
+	background: none;
+	padding: 13px 20px;
+	font-weight: 700;
+	color: var(--negro);
+	font-size: var(--parrafo);
+	border: 1.5px solid var(--negro);
+	transition: var(--transicionLarga);
+	letter-spacing: 1px;
+}
+
+.btn:hover{
+
+	color: var(--blanco);
+	background: var(--negro);
+}
+
+/*INICIO SCROLL BAR*/
+::-webkit-scrollbar{
+
+	width: 10px;
+	background-color: var(--blanco);
+}
+
+::-webkit-scrollbar-thumb{
+
+	border-radius: 0px;
+	background: var(--colorUno);
+}
+/*FIN SCROLL BAR*/
